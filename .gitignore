@@ -1,0 +1,67 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*.atom/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Log files
+*.log
+
+# FastAPI specific
+*.sqlite3
+
+# pytest
+.cache/
+
+# FastAPI test data (if any)
+testdata/
+
+# Docker files
+docker-compose.override.yml
+Dockerfile*
+
+# Secrets and credentials (if applicable)
+*.env
+*.env.local
+*.env.production
+*.env.development
+
+# Coverage reports
+.coverage
+*.cover
+*.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
